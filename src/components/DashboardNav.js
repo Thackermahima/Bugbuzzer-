@@ -30,17 +30,20 @@ Q&A
 </Button>
 </Link>
 
-{/* <Link to="bountycompaigns"> */}
+<Link to="bounty">
 <Button style={{color:'black', fontWeight:'bold' ,textTransform:'capitalize'}} size='medium' variant='text'>
 Bounty Campaign
 </Button>
-{/* </Link> */}
+</Link>
 {/* <Link to="hireexperts"> */}
 <Button style={{color:'black', fontWeight:'bold' ,textTransform:'capitalize'}} size='medium' variant='text'>
 Hire Experts  </Button>
 {/* </Link> */}
+<Link to="/Question-form" >
+<Button variant="contained" size='small' style={{backgroundColor:"#D82148",textTransform:'capitalize',border:'2px solid #D82148', marginRight:'18px', fontWeight:'bold'}} sx={{borderRadius:2}}>Ask question</Button>
+</Link>
+  </Box>
 
-</Box>
    
   </Toolbar>
 </AppBar>    )
