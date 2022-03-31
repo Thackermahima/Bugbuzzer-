@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, Stack, Card, CardContent} from '@mui/material'
+import { Typography, Stack, Card, CardContent, Grid} from '@mui/material'
 const Bugs = () => {
   return (
     <>
@@ -10,8 +10,11 @@ const Bugs = () => {
       </Typography>
       <Typography m={1.8}>
       Help projects succeed by Reporting bugs, share your knowledge in Q&A and earn Tokens and NFTs as rewards.      </Typography>
-      
-      <Stack direction="row" justifyContent="space-between" sx={{flexWrap:"wrap"}}>
+
+     
+      <Stack direction="row" sx={{flexWrap:"wrap"}}>
+      <Grid container item justifyContent="space-between" >
+
     <Card sx={{ width:170, height: 140 ,color:"white", mb:2, backgroundColor:"#D82148" }}>
     <CardContent>
       <Typography variant="subtitle2"  mt={4} fontWeight = 'bold' gutterBottom justifycontent="center" textAlign="center">
@@ -50,6 +53,8 @@ const Bugs = () => {
 Crypto/Flat Scams.Rug Pool     </Typography>
     </CardContent>
   </Card>
+  </Grid>
+
   </Stack>
 
 

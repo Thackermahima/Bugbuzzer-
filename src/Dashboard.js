@@ -4,9 +4,6 @@ import Bugs from './components/Bugs'
 import BountyWinners from './components/BountyWinners'
 import Compaigns from './components/Compaigns'
 import QandAList from './components/QandAList'
-import { AppBar, Toolbar, Button, Typography} from '@mui/material'
-import { Box } from '@mui/system'
-import { Link } from 'react-router-dom'
 import DashboardNav from './components/DashboardNav'
 const Dashboard = () => {
   return (
